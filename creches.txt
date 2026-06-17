@@ -1,0 +1,8 @@
+JoanaTimoteo;AmaroCavalcante;2.9
+JoanaTimoteo;AnaReinaldo;5.7
+AmaroCavalcante;AnaReinaldo;3.4
+AmaroCavalcante;PequenoPrincipe;1.8
+AnaReinaldo;PequenoPrincipe;4.2
+PequenoPrincipe;Tiazinha;6.1
+Tiazinha;JoanaTimoteo;7.5
+Tiazinha;AnaReinaldo;2.3
