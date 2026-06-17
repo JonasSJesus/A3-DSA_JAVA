@@ -99,23 +99,6 @@ Se a conexão já existir, apenas a distância é atualizada.
 - **Adicionar conexão:** reaproveita o mesmo `adicionarConexao` usado na
   leitura do arquivo, atualizando matriz e listas.
 
----
-
-## Decisões de Implementação
-
-- **Java puro:** sem frameworks, sem `Collections`, sem Streams, Lambdas,
-  Generics complexos, Reflection ou Design Patterns. Apenas o necessário.
-- **Listas criadas manualmente:** os nós (`NoCreche` e `NoConexao`) são
-  construídos à mão, deixando claro como uma lista encadeada funciona — que é
-  justamente o objetivo acadêmico.
-- **Selection Sort em vez de `Collections.sort()`:** a ordenação é simples,
-  curta e fácil de explicar na apresentação.
-- **Grafo não direcionado:** ligar A com B liga também B com A, o que torna as
-  consultas mais intuitivas (se uma creche está perto da outra, vale nos dois
-  lados).
-- **Poucas classes:** `Main`, `Grafo`, `NoCreche`, `NoConexao` e
-  `LeitorArquivo`, cada uma com uma responsabilidade clara, priorizando
-  clareza, simplicidade e legibilidade.
 
 ---
 
